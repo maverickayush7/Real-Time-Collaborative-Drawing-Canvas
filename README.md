@@ -36,12 +36,9 @@ You can also join a specific room by appending a query:
 
 ## 🧠 How It Works
 
-- `Frontend:-` Vanilla JavaScript + HTML5 Canvas.
-                Handles drawing, smooth stroke rendering, and cursor visualization.
-- `Backend:-` Node.js with Socket.io for WebSocket-based communication.
-                Manages rooms, tracks stroke history, and handles global undo/redo.
-- `Undo/Redo:-` The server maintains a linear history of all drawing operations.
-                Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
+- `Frontend:-` Vanilla JavaScript + HTML5 Canvas. Handles drawing, smooth stroke rendering, and cursor visualization.
+- `Backend:-` Node.js with Socket.io for WebSocket-based communication. Manages rooms, tracks stroke history, and handles global undo/redo.
+- `Undo/Redo:-` The server maintains a linear history of all drawing operations. Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
 
 ## 🧩 Folder Structure
 ```
