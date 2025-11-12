@@ -67,9 +67,5 @@ collaborative-canvas/
 3. Draw in one window — the strokes should appear instantly in all others.
 4. Try undo/redo and confirm that all canvases stay in sync.
 
-
-## 🕒 Development Time
-- Approximately 6–8 hours from setup to testing, including debugging and documentation.
-
 ## 🧑‍💻 Author
 - Built by Ayush Kumar
