@@ -27,29 +27,30 @@ You can also join a specific room by appending a query:
 
 ## ✏️ How to Use
 
-### Brush Tool: #### Select “Brush” from the dropdown and drag on the canvas to draw.
+### Brush Tool: 
+Select “Brush” from the dropdown and drag on the canvas to draw.
 
-### Eraser Tool: #### Switch to “Eraser” to remove strokes (it paints white over the canvas).
+### Eraser Tool: Switch to “Eraser” to remove strokes (it paints white over the canvas).
 
-### Color & Width: #### Pick a color and adjust stroke width from the toolbar.
+### Color & Width: Pick a color and adjust stroke width from the toolbar.
 
-### Undo / Redo: #### Use the buttons or keyboard shortcuts:
+### Undo / Redo: Use the buttons or keyboard shortcuts:
 
 ⌘ / Ctrl + Z → Undo
 ⌘ / Ctrl + Y → Redo
 
-### Rooms: #### Each room is isolated. Type a name in the “Room” field and click Join to start a new one.
+### Rooms: Each room is isolated. Type a name in the “Room” field and click Join to start a new one.
 
-### Multiple Users: #### Open several tabs or browsers — everyone in the same room sees drawings update in real time, along with other users’ cursors.
+### Multiple Users: Open several tabs or browsers — everyone in the same room sees drawings update in real time, along with other users’ cursors.
 
 
 ## 🧠 How It Works
 
-### Frontend: #### Vanilla JavaScript + HTML5 Canvas.
-Handles drawing, smooth stroke rendering, and cursor visualization.
+#### Frontend: Vanilla JavaScript + HTML5 Canvas.
+                Handles drawing, smooth stroke rendering, and cursor visualization.
 
-### Backend: #### Node.js with Socket.io for WebSocket-based communication.
-Manages rooms, tracks stroke history, and handles global undo/redo.
+Backend: Node.js with Socket.io for WebSocket-based communication.
+                Manages rooms, tracks stroke history, and handles global undo/redo.
 
-### Undo/Redo: #### The server maintains a linear history of all drawing operations.
-Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
+Undo/Redo: The server maintains a linear history of all drawing operations.
+                Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
