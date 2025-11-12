@@ -73,7 +73,6 @@ collaborative-canvas/
 ```
 
 ## 🧪 Testing Tips
-
 1. Run the server locally.
 2. Open two or more browser windows with the same room name.
 3. Draw in one window — the strokes should appear instantly in all others.
@@ -81,9 +80,7 @@ collaborative-canvas/
 
 
 ## 🕒 Development Time
-
 - Approximately 6–8 hours from setup to testing, including debugging and documentation.
 
 ## 🧑‍💻 Author
-
 - Built by Ayush Kumar
