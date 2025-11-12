@@ -57,16 +57,32 @@ You can also join a specific room by appending a query:
 ```
 collaborative-canvas/
 ├── client/
-│ ├── index.html # UI layout
-│ ├── style.css # Toolbar and layout styling
-│ ├── canvas.js # Canvas drawing logic
-│ ├── websocket.js # Socket.io client setup
-│ └── main.js # App initialization and event wiring
+│ ├── index.html        # UI layout
+│ ├── style.css         # Toolbar and layout styling
+│ ├── canvas.js         # Canvas drawing logic
+│ ├── websocket.js      # Socket.io client setup
+│ └── main.js           # App initialization and event wiring
 ├── server/
-│ ├── server.js # Express + Socket.io server
-│ ├── rooms.js # User and room management
-│ └── drawing-state.js # Global drawing history & undo/redo logic
+│ ├── server.js         # Express + Socket.io server
+│ ├── rooms.js          # User and room management
+│ └── drawing-state.js  # Global drawing history & undo/redo logic
 ├── package.json
+├── package-lock.json
 ├── README.md
 └── ARCHITECTURE.md 
 ```
+
+## 🧪 Testing Tips
+
+1. Run the server locally.
+
+2. Open two or more browser windows with the same room name.
+
+3. Draw in one window — the strokes should appear instantly in all others.
+
+4. Try undo/redo and confirm that all canvases stay in sync.
+
+
+## 🕒 Development Time
+
+- Approximately 6–8 hours from setup to testing, including debugging and documentation.
