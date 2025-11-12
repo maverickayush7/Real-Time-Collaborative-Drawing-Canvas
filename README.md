@@ -1,4 +1,4 @@
-# Real-Time-Collaborative-Drawing-Canvas
+# 🖌️  Real-Time-Collaborative-Drawing-Canvas
 
 A simple multi-user drawing board built with vanilla JavaScript, HTML5 Canvas, and Node.js (Socket.io).
 Multiple users can draw together in real time, see each other’s cursors, and even perform global undo/redo operations.
@@ -10,3 +10,4 @@ Multiple users can draw together in real time, see each other’s cursors, and e
 - Global undo/redo (linear history)
 - Room support
 - Lightweight and framework-free
+
