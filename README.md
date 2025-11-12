@@ -54,7 +54,7 @@ You can also join a specific room by appending a query:
                 Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
 
 ## 🧩 Folder Structure
-
+```
 collaborative-canvas/
 ├── client/
 │ ├── index.html # UI layout
@@ -68,5 +68,5 @@ collaborative-canvas/
 │ └── drawing-state.js # Global drawing history & undo/redo logic
 ├── package.json
 ├── README.md
-└── ARCHITECTURE.md
-
+└── ARCHITECTURE.md 
+```
