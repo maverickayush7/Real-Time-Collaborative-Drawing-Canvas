@@ -11,18 +11,15 @@ Multiple users can draw together in real time, see each other’s cursors, and e
 - Room support
 - Lightweight and framework-free
 
-🚀 Getting Started
+🚀 Setup
 1. Clone the repository
 git clone https://github.com/maverickayush7/Real-Time-Collaborative-Drawing-Canvas.git
 cd Real-Time-Collaborative-Drawing-Canvas
 
-2. Install dependencies
-npm install
-
-3. Run the server
-npm start
-
-4. Open the app
+2. `npm install`
+3. `npm start`
+4. Open multiple browser tabs to `http://localhost:3000/?room=test` (or any room name).
+5. Open the app
 
 Visit http://localhost:3000
  in your browser.
