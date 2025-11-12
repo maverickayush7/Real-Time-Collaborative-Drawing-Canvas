@@ -86,3 +86,7 @@ collaborative-canvas/
 ## 🕒 Development Time
 
 - Approximately 6–8 hours from setup to testing, including debugging and documentation.
+
+🧑‍💻 Author
+
+Built by Ayush Kumar @maverickayush7
