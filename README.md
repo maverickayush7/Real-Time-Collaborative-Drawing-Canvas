@@ -26,7 +26,7 @@ You can also join a specific room by appending a query:
                 http://localhost:3000/?room=demo
 
 ## ✏️ How to Use
-- `Brush Tool:` - Select “Brush” from the dropdown and drag on the canvas to draw.
+- ### `Brush Tool:` - Select “Brush” from the dropdown and drag on the canvas to draw.
 
 ### Eraser Tool: Switch to “Eraser” to remove strokes (it paints white over the canvas).
 
