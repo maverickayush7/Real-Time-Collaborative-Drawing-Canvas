@@ -52,3 +52,24 @@ You can also join a specific room by appending a query:
 
 - `Undo/Redo:-` The server maintains a linear history of all drawing operations.
                 Undo removes the latest applied stroke (no matter who drew it), and redo restores it.
+
+## 🧩 Folder Structure
+
+collaborative-canvas/
+├── client/
+│   ├── index.html         # UI layout
+│   ├── style.css          # Toolbar and layout styling
+│   ├── canvas.js          # Canvas drawing logic
+│   ├── websocket.js       # Socket.io client setup
+│   └── main.js            # App initialization and event wiring
+├── server/
+│   ├── server.js          # Express + Socket.io server
+│   ├── rooms.js           # User and room management
+│   └── drawing-state.js   # Global drawing history & undo/redo logic
+├── package.json
+├── package-lock.json
+├── README.md
+└── ARCHITECTURE.md
+
+
+
